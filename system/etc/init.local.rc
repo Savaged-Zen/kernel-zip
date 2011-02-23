@@ -16,7 +16,7 @@ on property:persist.service.compcache=0
     start compcache_off
 
 
-# Snap Kernel Extras
+# Kernel Extras
 service sinit /system/bin/s.init
     user root
     oneshot
